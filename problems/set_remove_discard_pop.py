@@ -1,3 +1,5 @@
+# Execute pop, remove, and discard operations on a set based on given commands and print the final sum of elements
+
 n = int(input())
 s = set(map(int, input().split()))
 
@@ -16,4 +18,3 @@ for _ in range(m):
         s.discard(int(cmd[1]))
         
 print(sum(s))
-    
