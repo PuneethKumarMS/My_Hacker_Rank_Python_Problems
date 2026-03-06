@@ -8,7 +8,6 @@ for _ in range(N):
     operation = input().split()
     other_set = set(map(int, input().split()))
 
-    
     if operation[0] == 'intersection_update':
         A.intersection_update(other_set)
         
