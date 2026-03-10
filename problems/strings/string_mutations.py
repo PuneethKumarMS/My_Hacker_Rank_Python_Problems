@@ -1,3 +1,7 @@
+# Replace a character in a string using slicing because strings are immutable.
+# Take the part before the given index, add the new character, and then
+# add the remaining part of the string after that index.
+
 def mutate_string(string, position, character):
     new = string[:position] + character + string[position + 1 :]
     return new
