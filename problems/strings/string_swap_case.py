@@ -3,7 +3,7 @@
 def swap_case(s):
     
     new_s = ''
-    
+
     for ch in s:
         if ch.isupper():
             new_s += ch.lower()
