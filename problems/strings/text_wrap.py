@@ -1,3 +1,5 @@
+# Wrap a string into lines of fixed width using range() stepping and string slicing
+
 def wrap(string, max_width):
     wrapped = ''
 
