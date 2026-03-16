@@ -13,8 +13,5 @@ for i in range(no_of_customers):
     if list_of_shoe_sizes[size] > 0:
         total += price
         list_of_shoe_sizes[size] -= 1
-<<<<<<< HEAD
-print(total)  
-=======
+
 print(total) 
->>>>>>> f4b4e9a3a9c9f3ae1a82b2fe7946887e5fcaedf4
