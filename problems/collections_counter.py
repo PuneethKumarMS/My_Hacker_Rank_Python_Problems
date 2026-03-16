@@ -14,10 +14,3 @@ for i in range(no_of_customers):
         total += price
         list_of_shoe_sizes[size] -= 1
 print(total)  
-        
-    
-
-
-
-
-
