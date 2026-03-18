@@ -1,5 +1,4 @@
-# Enter your code here. Read input from STDIN. Print output to STDOUT
-
+# Perform division for multiple inputs and handle errors like invalid input or divide-by-zero using try-except
 a = int(input())
 
 for i in range(a):
