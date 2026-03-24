@@ -8,7 +8,6 @@ for i in range(n):
     s = input()
     try:
         re.compile(s)
-        print('True')
-        
+        print('True') 
     except re.error:
         print('False')

@@ -11,5 +11,4 @@ for i in range(no_of_students):
     row = input().split()
     S = students(*row)
     total += int(S.MARKS)
-    
 print(f'{total/no_of_students:.2f}' )

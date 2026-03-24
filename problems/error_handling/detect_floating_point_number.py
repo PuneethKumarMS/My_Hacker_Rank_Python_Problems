@@ -3,9 +3,7 @@
 t = int(input())
 
 for i in range(t):
-    
     n = input()
-    
     if '.' in n:
         try:
             f = float(n)
