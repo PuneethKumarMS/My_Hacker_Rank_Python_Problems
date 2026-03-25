@@ -1,7 +1,5 @@
 A = set(map(int, input().split()))
-
 N = int(input())
-
 result = True
 
 for _ in range(N):
@@ -9,5 +7,4 @@ for _ in range(N):
     
     if not A > B:   # check strict superset
         result = False
-
 print(result)
