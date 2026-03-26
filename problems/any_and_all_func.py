@@ -1,3 +1,4 @@
+# Checks if all elements in the list are positive and at least one element is a palindrome using all() and any().
 # any() - This expression returns True if any element of the iterable is true. 
 # If the iterable is empty, it will return False.
 # all() - This expression returns True if all of the elements of the iterable are true. 
