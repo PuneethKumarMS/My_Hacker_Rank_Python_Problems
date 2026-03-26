@@ -7,10 +7,8 @@ def swap_case(s):
     for ch in s:
         if ch.isupper():
             new_s += ch.lower()
-            
         elif not ch.isupper:
-            new_s += ch.upper()
-            
+            new_s += ch.upper() 
     return new_s
 
 if __name__ == '__main__':
