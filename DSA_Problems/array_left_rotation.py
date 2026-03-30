@@ -1,6 +1,7 @@
 # A left rotation operation on a circular array shifts each of the array's elements  unit to the left. 
 
 def rotateLeft(d, arr):
+    d = d % len(arr)
     rotation = arr[d:] + arr[:d] 
     return rotation
 

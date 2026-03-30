@@ -1,5 +1,7 @@
 def rotateString(d, string):
-    
+
+    l = len(string)
+    d = d % l
     r = string[d:] + string[:d]
     return r
 
