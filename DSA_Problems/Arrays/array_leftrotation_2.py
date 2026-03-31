@@ -3,8 +3,9 @@
 def rotateLeft(no_of_rotations, arr):
 
     for _ in range(no_of_rotations):
+        m = no_of_rotations % len(arr)
         first = arr.pop(0) #removes first element of a list
-        add = arr.append(first) #adds the removed element to the end of the list
+        arr.append(first) #adds the removed element to the end of the list
     return arr
 
 if __name__ == '__main__':
