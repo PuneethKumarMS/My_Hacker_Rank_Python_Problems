@@ -12,6 +12,3 @@ if __name__ == '__main__':
     d = int(multiple_input[1])
     result = rotateString(d, string)
     print(result)
-
-    
-
