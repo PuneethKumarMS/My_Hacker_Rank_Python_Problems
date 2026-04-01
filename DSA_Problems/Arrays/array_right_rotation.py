@@ -1,4 +1,4 @@
-def rotateRight(d, arr): 
+def rotateRight(d, arr):
     n = len(arr)
     d = d % n   
     rotation = arr[-d:] + arr[:-d]

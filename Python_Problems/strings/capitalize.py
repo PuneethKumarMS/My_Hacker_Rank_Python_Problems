@@ -1,7 +1,8 @@
 # Split the name, capitalize the first letter of each word, and rebuild the string.
 
 def solve(s):
-    full_name = s.split(' ')
+    full_name = s.split()
+    print(full_name)
     result = ''
     
     for ch in full_name:
@@ -13,15 +14,9 @@ def solve(s):
         else:
             name = ch
         result += name + ' '
-    print(result)
+    return result
     
 if __name__ == '__main__':
-    # fptr = open(os.environ['OUTPUT_PATH'], 'w')
-
     s = input()
-
     result = solve(s)
-
-    # fptr.write(result + '\n')
-
-    # fptr.close()
+    print(result)
