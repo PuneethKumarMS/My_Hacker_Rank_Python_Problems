@@ -1,7 +1,7 @@
 # reverse an array of integers.
 
 def reverseArray(a):
-    a.reverse()
+    a = a[::-1]
     return a
 
 
