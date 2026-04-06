@@ -3,7 +3,7 @@ a = 0
 b = 1
 
 for _ in range(n):
-    print(a)
+    print(a, end=" ")
     nxt = a + b
     a = b 
     b = nxt
