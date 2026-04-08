@@ -1,6 +1,7 @@
 n = int(input()) 
 
-temp = n
+temp = n # to store number because number will modify after loop
+         # So we need to compare this stored number with reversed number
 
 rev = 0            
 
