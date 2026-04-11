@@ -1,6 +1,10 @@
+# A number is Armstrong if sum of digits raised to power of digit count equals the number
+
 n = int(input())
+
 original = n
 temp = n
+
 count_of_n = 0
 sum = 0
 
