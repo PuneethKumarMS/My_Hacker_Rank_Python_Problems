@@ -11,7 +11,7 @@ sum = 0
 if n == 0:
     count_of_n = 1
 
-while temp > 0:
+while temp > 0:  # to count the no of digits
     temp = temp//10
     count_of_n += 1
 
