@@ -1,19 +1,13 @@
-n = int(input())
-original = n
-temp = n
-count_of_n = 0
-sum = 0
+N = int(input())
+temp = N
+total = 0
 
-if n == 0:
-    count_of_n = 1
+if N <= 1:
+    print('Not perfect')
 
-while temp > 0:
-    temp = temp//10
-    count_of_n += 1
+else:
+    for i in range(1, N):
 
-while n > 0:
-    digit = n % 10
-    sum += digit ** count_of_n
-    n = n // 10
-
-print('Armstrong' if sum == original else 'Not Armstrong')
+        if N % i == 0:
+            total += i
+    print('Perfect' if temp == total  else 'Not Perfect')
