@@ -1,3 +1,5 @@
+# Repeatedly sum the digits of a number until it becomes a single digit
+
 N = int(input())
 
 while N >= 10:
