@@ -1,3 +1,5 @@
+# A number is prime if it has exactly two divisors: 1 and itself
+
 N = int(input())
 
 if N <= 1:
