@@ -3,8 +3,7 @@
 def matchingSrings(stringList, queries):
     total = []
     for string in queries:
-        total.append(stringList.count(string))
-        
+        total.append(stringList.count(string))   
     return total
 
 if __name__ == '__main__':
