@@ -1,4 +1,5 @@
 # My TCS NQT problem
+# Count pairs where i + j is even
 
 n = int(input())
 
