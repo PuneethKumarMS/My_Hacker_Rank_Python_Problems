@@ -9,7 +9,6 @@ for num in arr:
     if num in seen:
         print(num)
         break
-
     seen.append(num)
 
 else:
