@@ -2,17 +2,17 @@
 
 def solve(s):
     full_name = s.split()
-    print(full_name)
     result = ''
     
     for ch in full_name:
+        print(ch[0])
         if ch and ch[0].isalpha():
             upper_letter = ch[0].upper()
             other_letters = ch[1:]
             name = upper_letter  +  other_letters
             
         else:
-            name = ch
+            name = ch 
         result += name + ' '
     return result
     
