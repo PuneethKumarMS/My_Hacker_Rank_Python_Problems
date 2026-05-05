@@ -6,7 +6,7 @@ arr.sort()
 largest = arr[-1]
 
 for i in range(n-2, -1, -1):
-    if arr[i] != largest:
+    if arr[i] != largest:  # to remove duplicate
         print(arr[i])
         break
 else:
