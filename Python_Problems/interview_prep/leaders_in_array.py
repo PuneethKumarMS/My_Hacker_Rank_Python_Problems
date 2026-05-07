@@ -6,7 +6,7 @@ arr = list(map(int, input().split()))
 
 leaders = []
 
-max_from_right = arr[-1]
+max_from_right = arr[-1] 
 
 for i in range(n-1, -1, -1):
     if arr[i] >=  max_from_right:  # last element iteslf is leader

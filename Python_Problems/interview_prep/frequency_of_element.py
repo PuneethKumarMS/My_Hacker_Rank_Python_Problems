@@ -3,8 +3,8 @@ arr = list(map(int, input().split()))
 visited = []
 
 for i in arr:
-   if i in visited: # to skip visited element
-      continue
+   if i in visited: 
+      continue    # to skip visited element
    
    count = 0
 
