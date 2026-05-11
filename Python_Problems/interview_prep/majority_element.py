@@ -1,3 +1,4 @@
+
 # Find element occurring more than half of array size
 
 n = int(input())
