@@ -25,7 +25,6 @@ for i in arr:
         found = True
         break
 
-    
 if not found:
     print(-1)
           

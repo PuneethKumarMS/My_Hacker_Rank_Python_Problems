@@ -4,7 +4,7 @@ t = int(input())
 
 for i in range(t):
     n = input()
-    if '.' in n:
+    if '.' in n:  # to check decmals
         try:
             f = float(n)
             print(True)

@@ -2,6 +2,7 @@ n = int(input())
 
 if n < 0:
     print("Not Armstrong")
+    
 else:
     s = str(n)              # convert number to string
     power = len(s)          # number of digits
